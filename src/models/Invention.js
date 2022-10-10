@@ -15,7 +15,7 @@ const inventions = [
         id: 67890,
         title: 'Monopoly',
         author: 'Charles Darrow',
-        creationDate: 1905,
+        creationDate: 1935,
     },
     {
         id: 54367,
