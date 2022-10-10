@@ -6,7 +6,8 @@
   "scripts": {
     "start": "nodemon src/app.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-	"commit": "cz"
+    "commit": "cz",
+	"prettier": "prettier -w \"src/**/*.js\""
   },
   "author": "",
   "license": "ISC",
@@ -16,7 +17,8 @@
   "devDependencies": {
     "commitizen": "^4.2.5",
     "cz-conventional-changelog": "3.3.0",
-    "nodemon": "^2.0.20"
+    "nodemon": "^2.0.20",
+    "prettier": "2.7.1"
   },
   "config": {
     "commitizen": {
