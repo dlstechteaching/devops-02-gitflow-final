@@ -30,7 +30,7 @@ const inventions = [
         creationDate: 1906,
     },
     {
-        id: 00001,
+        id: 11111,
         title: 'Blockchain',
         author: 'Satashi Nakamoto',
         creationDate: 2008,
@@ -59,6 +59,6 @@ const inventions = [
         author: 'Eichiro Oda',
         creationDate: 1997,
     },
-]
+];
 
-module.exports.list = () => inventions
+module.exports.list = () => inventions;
